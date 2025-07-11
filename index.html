@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shahir Hussain | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(8px);
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav a {
+      color: #66fcf1;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: white;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px 50px;
+    }
+    .hero h1 {
+      font-size: 42px;
+      margin: 10px 0;
+    }
+    .hero p {
+      font-size: 18px;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    .hero a.button {
+      display: inline-block;
+      background: #66fcf1;
+      color: #000;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .hero a.button:hover {
+      background: #fff;
+      color: #000;
+    }
+    .section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(6px);
+      border-radius: 16px;
+      margin-bottom: 30px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+    h2 {
+      color: #66fcf1;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(30, 78, 161, 0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+      color: #aaa;
+    }
+    .socials {
+      margin-top: 20px;
+    }
+    .socials a {
+      color: #66fcf1;
+      margin: 0 10px;
+      font-size: 24px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .socials a:hover {
+      color: white;
+    }
+
+    /* 🔧 Contact link styles (updated) */
+    #contact a {
+      color: #6696fc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    #contact a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Mohamed Shahir Hussain</h1>
+    <p>Engineering Student | Learning AWS & Linux | Future SRE</p>
+    <a class="button" href="https://shahir-portfolio-site.s3.us-east-1.amazonaws.com/shahir_resume.pdf" target="_blank" rel="noopener noreferrer">📄 View Resume</a>
+
+  </div>
+
+  <div class="section" id="about">
+    <h2>About Me</h2>
+    <p>I'm Shahir Hussain, currently pursuing engineering and diving deep into cloud technologies like AWS, and system operations using Linux. I aim to become a skilled Cloud Architect by building hands-on projects and mastering essential tools.</p>
+  </div>
+
+  <div class="section" id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>☁️ AWS (S3, EC2, IAM, etc.)</li>
+      <li>🐍 Python </li>
+      <li>🛢️ SQL </li>
+      <li>💻 HTML, CSS </li>
+    </ul>
+  </div>
+
+  <div class="section" id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>🌐 Personal Portfolio (Hosted on AWS S3)</li>
+      <li>🖼️  Image Classification</li>
+      <li>🔍 Face Recognition</li>
+      <li>🚀 EC2 Instance + Apache Web Server Setup</li>
+    </ul>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: <a href="mailto:shahir29ams@gmail.com">shahir29ams@gmail.com</a></li>
+      <li>GitHub: <a href="https://github.com/shahir29" target="_blank">github.com/shahir29</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/shahir29" target="_blank">linkedin.com/in/shahir29</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2025 Shahir Hussain — Proudly built and hosted on AWS ☁️
+  </footer>
+
+</body>
+</html>
